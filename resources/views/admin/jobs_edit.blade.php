@@ -53,14 +53,14 @@
 
                         @csrf
                         <div class="form-group">
-                            <label>Parent</label>
+                            <label>Category</label>
                             <select class="select2 form-control custom-select" name="category_id"
                                     style="width: 100%; height:36px;">
 
 
                                 @foreach ($datalist as $rs)
                                     <option value="{{ $rs->id }}"
-                                            @if($rs->id == $data->category_id) selected="selected" @endif>{{ $rs->title }}</option>
+                                            @if($rs->id == $data->category_id) selected="selected" @endif>{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}</option>
                                 @endforeach
 
                             </select>
@@ -80,8 +80,13 @@
 
                         <div class="form-group">
                             <label>Company</label>
-                            <input type="text" name="company_id" value="{{$data->company_id}}" class="form-control">
+                            <input type="text" name="company" value="{{$data->company}}" class="form-control">
                         </div>
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" name="location" value="{{$data->location}}" class="form-control">
+                        </div>
+
                         <div class="form-group">
                             <label>salaries</label>
                             <input type="number" name="salaries" value="{{$data->salaries}}" class="form-control">

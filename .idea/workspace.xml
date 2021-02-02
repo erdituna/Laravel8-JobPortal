@@ -20,245 +20,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee97ff03-9459-4328-aec2-6922c8eb3628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/flaticon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/nice-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/price_rangs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/slicknav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/css/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/Flaticon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/Flaticon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/Flaticon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/Flaticon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/Flaticon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/_flaticon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/flaticon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/about/about_lft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/about/about_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/about/pet_care.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/adapt_icon/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/adapt_icon/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/adapt_icon/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/adapt_icon/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/banner/dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/banner/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/author.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/blog_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/home-blog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/home-blog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/learn_about_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/single_blog_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/single_blog_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/single_blog_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/single_blog_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/single_blog_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/blog/slide_thumb_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/comment/comment_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/comment/comment_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/comment/comment_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/disabled-check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/disabled-radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/f8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/g8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/primary-check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/primary-radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/success-check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/elements/success-radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/gallery/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/gallery/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/gallery/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/gallery/cv_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/gallery/how-applybg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/hero/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/hero/h1_hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/icon/form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/icon/job-list1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/icon/job-list2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/icon/job-list3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/icon/job-list4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/logo/form-iocn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/logo/loder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/logo/logo2_footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/logo/select-items-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/logo/testimonial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/offers/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/offers/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/offers/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/our_blog/blog-img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/post_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/post/preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/prising/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/footer_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/service_icon_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/service_icon_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/service_icon_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/service_icon_bg_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/service/support-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/team/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/team/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/team/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/testmonial/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/img/testmonial/testimonial-founder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/animated.headline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.ajaxchimp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.nice-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.paroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.slicknav.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/mail-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/one-page-nav-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/price_rangs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/vendor/modernizr-3.5.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/js/wow.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_apply-proces.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_blog_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_bradcam.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_color.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_cv-online.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_elements.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_featured-Jobs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_h1-hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_headerMenu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_job_details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_job_listing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_overlay.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_recent.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_services_section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_support-company.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_team.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_testimonial.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/assets/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/contact_process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/job_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/job_listing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/jobfinderportal-master/jobfinderportal-master/single-blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/JobsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Jobs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_171525_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_084612_create_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_091433_jobs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_134836_create_images_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_135403_image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_blank.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/jobs.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/jobs_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/jobs_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JobPortal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JobPortal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/FaqController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MessageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Faq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_141129_create_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_142857_setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_27_092053_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_30_153900_add_adress_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_30_154027_add_phone_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_31_084800_create_messages_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_31_085228_message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_02_080222_create_faqs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_02_080531_faq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/gallery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/markdown/policy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/markdown/terms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/faq.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/faq_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/faq_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/message.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/message_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/confirm-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_blank.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_slider.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/category_jobs.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/faq.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/jobs_detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/message.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/references.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/search_jobs.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/appx.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/home2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/policy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/terms.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ApiTokenPermissionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/AuthenticationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/BrowserSessionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/CreateApiTokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/DeleteAccountTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/DeleteApiTokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/EmailVerificationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordConfirmationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordResetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ProfileInformationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/UpdatePasswordTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Actions/Fortify/UpdateUserProfileInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Fortify/UpdateUserProfileInformation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/JobsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/JobsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Jobs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Jobs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jetstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jetstream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_04_084612_create_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_04_091433_jobs.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_29_124545_jobs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/jobs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/jobs.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/jobs_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/jobs_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/jobs_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/jobs_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/api/api-token-manager.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/api/api-token-manager.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/delete-user-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/delete-user-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/logout-other-browser-sessions-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/logout-other-browser-sessions-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,21 +272,27 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lHDn3cVpALRhobecJ9y676c9EJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\laravel\JPortal\JobPortal\resources\views\layouts" />
+      <recent name="C:\xampp\laravel\JPortal\JobPortal\resources\views\home" />
       <recent name="C:\xampp\laravel\JPortal\JobPortal\resources\views\admin" />
     </key>
   </component>
@@ -453,8 +325,24 @@
       <workItem from="1609749454108" duration="20262000" />
       <workItem from="1609853964506" duration="6765000" />
       <workItem from="1609868117917" duration="1326000" />
-      <workItem from="1609869518754" duration="341000" />
+      <workItem from="1609869518754" duration="10507000" />
+      <workItem from="1609941389879" duration="12319000" />
+      <workItem from="1611738531026" duration="4512000" />
+      <workItem from="1611851537232" duration="4435000" />
+      <workItem from="1611919797940" duration="25323000" />
+      <workItem from="1611996600346" duration="28243000" />
+      <workItem from="1612082681946" duration="32855000" />
+      <workItem from="1612171852991" duration="18635000" />
+      <workItem from="1612252268405" duration="7583000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1609870466225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609870466225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,15 +360,28 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="214" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609529582451">
+    <state x="520" y="236" key="#Notifications" timestamp="1611743033578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="214" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609529582451" />
-    <state x="529" y="164" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609856559504">
+    <state x="520" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1611743033578" />
+    <state x="214" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612020439084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="529" y="164" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609856559504" />
+    <state x="214" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1612020439084" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612258131884">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1612258131884" />
+    <state x="529" y="164" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612255292681">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="164" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1612255292681" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609868836468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -501,14 +402,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609868103562" />
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1609867720867">
+    <state x="349" y="155" key="IDE.errors.dialog" timestamp="1611743190635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1609867720867" />
-    <state x="381" y="115" key="SettingsEditor" timestamp="1609869127543">
+    <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1611743190635" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1612000657471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="381" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609869127543" />
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1612000657471" />
+    <state x="381" y="115" key="SettingsEditor" timestamp="1611742954304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="381" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611742954304" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1609855464661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -517,10 +422,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1607264245657" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609869533230">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609870496817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609869533230" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609870496817" />
+    <state x="667" y="300" width="312" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612017945865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="667" y="300" width="312" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1612017945865" />
+    <state x="634" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1612019341994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="634" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1612019341994" />
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1607264120569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -529,9 +442,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="184" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1609691499671" />
-    <state x="388" y="145" key="search.everywhere.popup" timestamp="1609750833590">
+    <state x="202" y="194" key="run.anything.popup" timestamp="1612113562642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="388" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609750833590" />
+    <state x="202" y="194" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1612113562642" />
+    <state x="388" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612103843273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="388" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612103843273" />
   </component>
 </project>

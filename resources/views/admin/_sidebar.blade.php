@@ -15,7 +15,7 @@
                         <li><a href="javascript:void(0)"><i class="ti-settings"></i> Account Setting</a></li>
                         @auth
                             <a href="#" class="d-block">{{Auth::user()->name}}</a>
-                            <li><a href="{{route('admin_logout')}}"><i class="fa fa-power-off"></i> Logout</a></li>
+                            <li><a href="{{route('logout')}}"><i class="fa fa-power-off"></i> Logout</a></li>
                         @endauth
                     </ul>
                 </li>
@@ -27,6 +27,16 @@
                 </li>
                 <li><a href="{{route('admin_jobs')}}" aria-expanded="false"><i class="icon-speedometer"></i><span
                             class="hide-menu">Jobs<span
+                                class="badge badge-pill badge-cyan ml-auto"></span></span></a>
+
+                </li>
+                <li><a href="{{route('admin_message')}}" aria-expanded="false"><i class="icon-speedometer"></i><span
+                            class="hide-menu">Contact Message<span
+                                class="badge badge-pill badge-cyan ml-auto"></span></span></a>
+
+                </li>
+                <li><a href="{{route('admin_faq')}}" aria-expanded="false"><i class="icon-speedometer"></i><span
+                            class="hide-menu">Faq<span
                                 class="badge badge-pill badge-cyan ml-auto"></span></span></a>
 
                 </li>
@@ -77,8 +87,8 @@
                 </li>
 
                 <li class="nav-small-cap">--- SUPPORT</li>
-                <li><a class="waves-effect waves-dark" href="../documentation/documentation.html" aria-expanded="false"><i
-                            class="fa fa-circle-o text-danger"></i><span class="hide-menu">Documentation</span></a></li>
+                <li><a class="waves-effect waves-dark" href="{{route('admin_setting')}}" aria-expanded="false"><i
+                            class="fa fa-circle-o text-danger"></i><span class="hide-menu">Setting</span></a></li>
                 <li><a class="waves-effect waves-dark" href="pages-login.html" aria-expanded="false"><i
                             class="fa fa-circle-o text-success"></i><span class="hide-menu">Log Out</span></a></li>
                 <li><a class="waves-effect waves-dark" href="pages-faq.html" aria-expanded="false"><i

@@ -49,14 +49,13 @@
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Company</th>
+                                                <th>Location</th>
                                                 <th>Category</th>
-                                                <th>Title(s)</th>
+                                                <th>Title</th>
                                                 <th>Image</th>
+                                                <th>Image Galery</th>
                                                 <th>Salaries</th>
-                                                <th>Status</th>
-                                                <th>Edit</th>
-                                                <th>Delete</th>
-
+                                                <th colspan="3">Action</th>
 
                                             </tr>
                                             </thead>
@@ -65,14 +64,18 @@
 
                                                 <tr>
                                                     <td>{{ $rs->id }}</td>
-                                                    <td>{{ $rs->company_id }}</td>
-                                                    <td>{{ $rs->category_id }}</td>
+                                                    <td>{{ $rs->company }}</td>
+                                                    <td>{{ $rs->location }}</td>
+                                                    <td>{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs->category,$rs->category->title)}}</td>
                                                     <td>{{ $rs->title }}</td>
+
                                                     <td>
                                                         @if($rs->image)
                                                             <img src="{{ Storage::url($rs->image)}}" height="40"alt="">
                                                         @endif
                                                     </td>
+                                                    <td><a href="{{route('admin_image_add',['jobs_id'=> $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')"><img
+                                                                src="{{asset('assets/admin/images')}}/gallery.jpg" height="35"></a></td>
                                                     <td>${{ $rs->salaries }}</td>
                                                     <td>{{ $rs->status }}</td>
                                                     <td>

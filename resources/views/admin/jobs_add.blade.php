@@ -51,14 +51,14 @@
                     <form role="form" action="{{route('admin_jobs_store')}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label>Parent</label>
+                            <label>Category</label>
                             <select class="select2 form-control custom-select" name="category_id"
                                     style="width: 100%; height:36px;">
 
 
                                 @foreach ($datalist as $rs)
 
-                                    <option value="{{ $rs->id }}">{{ $rs->title }}</option>
+                                    <option value="{{ $rs->id }}">{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}</option>
                                 @endforeach
 
                             </select>
@@ -81,7 +81,11 @@
                         </div>
                         <div class="form-group">
                             <label>Company</label>
-                            <input type="text" name="company_id" class="form-control">
+                            <input type="text" name="company" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" name="location" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>salaries</label>

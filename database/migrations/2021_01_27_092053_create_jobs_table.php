@@ -20,7 +20,8 @@ class CreateJobsTable extends Migration
             $table->string('description')->nullable();
             $table->string('image',75)->nullable();
             $table->integer('category_id')->nullable();
-            $table->string('company_id')->nullable();
+            $table->string('company')->nullable();
+            $table->string('location')->nullable();
             $table->integer('user_id')->nullable();
             $table->double('salaries')->nullable();
             $table->text('detail')->nullable();

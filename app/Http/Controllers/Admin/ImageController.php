@@ -7,6 +7,7 @@ use App\Models\Image;
 use App\Models\Jobs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
 class ImageController extends Controller
@@ -30,7 +31,10 @@ class ImageController extends Controller
     {
         //
         $data = Jobs::find($jobs_id);
-        return view('admin.image_add', ['data' => $data]);
+        //$images = Image::whereColumn('jobs_id',$jobs_id);
+
+        $images = DB::table('images')->where('jobs_id','=',$jobs_id)->get();
+        return view('admin.image_add', ['data' => $data,'images' => $images]);
     }
 
     /**
@@ -93,8 +97,12 @@ class ImageController extends Controller
      * @param  \App\Models\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Image $image)
+    public function destroy(Image $image,$id,$jobs_id)
     {
         //
+        $data = Image::find($id);
+
+        $data->delete();
+        return redirect()->route('admin_image_add',['jobs_id'=>$jobs_id]);
     }
 }

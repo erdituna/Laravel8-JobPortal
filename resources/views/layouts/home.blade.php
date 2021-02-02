@@ -5,25 +5,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Job board HTML-5 Template </title>
-    <meta name="description" content="">
+    <title>@yield('title') </title>
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
+    <meta name="author" content="Erdi Tuna">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/price_rangs.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/flaticon.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/price_rangs.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/slicknav.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/animate.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/themify-icons.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/slick.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/nice-select.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
 <body>
 
 <div id="preloader-active">
@@ -37,12 +41,30 @@
     </div>
 </div>
 
-@include('home._header')
+<div class="header-area header-transparrent">
+    @include('home._header')
+
+    @include('home._menu')
+
+</div>
+
+<div class="slider-area ">
+
+    @include('home._slider')
+
+
+</div>
+
+@include('home._category')
+
+
 
 
 
 @section('content')
 @show
+
+
 
 
 @include('home._footer')

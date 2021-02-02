@@ -19,8 +19,8 @@ class JobsController extends Controller
      */
     public function index()
     {
-        $datalist = DB::select('select * from jobs');
-        return view('admin.jobs', ['datalist' => $datalist]);   //
+        $datalist = Jobs::all();
+        return view('admin.jobs', ['datalist' => $datalist]);
     }
 
     /**
@@ -30,23 +30,21 @@ class JobsController extends Controller
      */
     public function create()
     {
-        //
-        $datalist = Category::all();
+
+        $datalist = Category::with('children')->get();
         return view('admin.jobs_add', ['datalist' => $datalist]);
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
         //
         $data = new Jobs;
-
-
         $data->title = $request->input('title');
         $data->keywords = $request->input('keywords');
         $data->description = $request->input('description');
@@ -54,7 +52,8 @@ class JobsController extends Controller
         $data->status = $request->input('status');
         $data->image =Storage::putFile('images',$request->file('image'));
         $data->category_id= $request->input('category_id');
-        $data->company_id= $request->input('company_id');
+        $data->company = $request->input('company');
+        $data->location = $request->input('location');
         $data->user_id= Auth::id();
         $data->salaries= $request->input('salaries');
         $data->detail= $request->input('detail');
@@ -66,7 +65,7 @@ class JobsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Jobs  $jobs
+     * @param  \App\Models\Jobs $jobs
      * @return \Illuminate\Http\Response
      */
     public function show(Jobs $jobs)
@@ -77,7 +76,7 @@ class JobsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Jobs  $jobs
+     * @param  \App\Models\Jobs $jobs
      * @return \Illuminate\Http\Response
      */
     public function edit(Jobs $jobs,$id)
@@ -85,15 +84,15 @@ class JobsController extends Controller
         //
 
         $data = Jobs::find($id);
-        $datalist = Category::all();
+        $datalist = Category::with('children')->get();
         return view('admin.jobs_edit', ['data' => $data, 'datalist' => $datalist]);
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Jobs  $jobs
+     * @param  \Illuminate\Http\Request $request
+     * @param  \App\Models\Jobs $jobs
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Jobs $jobs,$id)
@@ -106,11 +105,13 @@ class JobsController extends Controller
         $data->slug = $request->input('slug');
         $data->status = $request->input('status');
         $data->category_id = $request->input('category_id');
-        $data->company_id = $request->input('company_id');
+        $data->company = $request->input('company');
+        $data->location = $request->input('location');
         $data->user_id = Auth::id();
         $data->salaries= $request->input('salaries');
         $data->detail= $request->input('detail');
-        $data->image = Storage::putFile('images',$request->file('image'));
+        if ($request->file('image')!=null)
+            $data->image = Storage::putFile('images',$request->file('image'));
         $data->save();
         return redirect()->route('admin_jobs');
     }
@@ -118,7 +119,7 @@ class JobsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Jobs  $jobs
+     * @param  \App\Models\Jobs $jobs
      * @return \Illuminate\Http\Response
      */
     public function destroy(Jobs $jobs,$id)

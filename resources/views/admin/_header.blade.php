@@ -257,7 +257,7 @@
                         <div class="dropdown-divider"></div>
                         <!-- text-->
                         @auth
-                            <a href="{{route('admin_logout')}}" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
+                            <a href="{{route('logout')}}" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
                         @endauth
 
                     </div>

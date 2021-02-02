@@ -56,7 +56,9 @@
                                 <option value="0">Main Category</option>
 
                                 @foreach ($datalist as $rs)
-                                    <option value="{{ $rs->id }}" @if($rs->id == $data->parent_id) selected="selected" @endif>{{ $rs->title }}</option>
+                                    <option value="{{ $rs->id }}" @if($rs->id == $data->parent_id) selected="selected" @endif>{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title) }}
+
+                                    </option>
                                 @endforeach
 
                             </select>
@@ -94,7 +96,7 @@
                                     <label for="checkbox1"> Remember me </label>
                                 </div>
                         </div>
-                        <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Add Category
+                        <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Update Category
                         </button>
                         <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                     </form>

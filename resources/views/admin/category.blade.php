@@ -52,7 +52,7 @@
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Parent</th>
-                                                <th>Title(s)</th>
+                                                <th>Title</th>
                                                 <th>Status</th>
                                                 <th>Edit</th>
                                                 <th>Delete</th>
@@ -63,7 +63,7 @@
 
                                                 <tr>
                                                     <td>{{ $rs->id }}</td>
-                                                    <td>{{ $rs->parent_id }}</td>
+                                                    <td>{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title) }}</td>
                                                     <td>{{ $rs->title }}</td>
                                                     <td>{{ $rs->status }}</td>
                                                     <td>
