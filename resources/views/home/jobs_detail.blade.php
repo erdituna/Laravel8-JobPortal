@@ -71,9 +71,12 @@
                             <li>Salary :  <span>${{$data->salaries}}</span></li>
                             <li>Application date : <span>12 Sep 2020</span></li>
                         </ul>
+                        <form action="{{route('user_application_add',['id'=>$data->id])}}">
                         <div class="apply-btn2">
-                            <a href="#" class="btn">Apply Now</a>
+                            <button type="submit" class="btn">Apply Now</button>
+
                         </div>
+                        </form>
                     </div>
 
                 </div>

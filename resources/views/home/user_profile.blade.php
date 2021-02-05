@@ -5,7 +5,7 @@
 
     <div class="slider-area ">
         <div class="single-slider section-overly slider-height2 d-flex align-items-center"
-             data-background="assets/img/hero/about.jpg">
+             data-background="{{asset('assets')}}/img/hero/about.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -18,11 +18,12 @@
         </div>
     </div>
 
+
     <div class="job-listing-area pt-120 pb-120">
         <div class="container">
             <div class="row">
                 <!-- Left content -->
-                <div class="col-xl-3 col-lg-3 col-md-4">
+                <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="row">
                         <div class="col-12">
                             <div class="small-section-tittle2 mb-45">
@@ -50,14 +51,14 @@
                     <!-- Job Category Listing End -->
                 </div>
                 <!-- Right content -->
-                <div class="col-xl-9 col-lg-9 col-md-8">
+                <div class="col-xl-9 col-lg-9 col-md-9">
                     <!-- Featured_job_start -->
                     <section class="featured-job-area">
                         <div class="container">
                             <!-- Count of Job list Start -->
                             <div class="row">
                                 <div class="col-lg-12">
-                                   @include('profile.show')
+                                    @include('profile.show')
                                 </div>
                             </div>
                             <!-- Count of Job list End -->

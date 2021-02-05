@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title','Frequently Asked Question List')
+@section('title','Admin Panel Home Page')
 
 
 @section('content')
@@ -14,13 +14,13 @@
             <!-- ============================================================== -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h4 class="text-themecolor">Faq</h4>
+                    <h4 class="text-themecolor">Category</h4>
                 </div>
                 <div class="col-md-7 align-self-center text-right">
                     <div class="d-flex justify-content-end align-items-center">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                            <li class="breadcrumb-item active">Faq</li>
+                            <li class="breadcrumb-item active">Category</li>
                         </ol>
 
                     </div>
@@ -28,6 +28,8 @@
 
 
             </div>
+
+
             <!-- ============================================================== -->
             <!-- End Bread crumb and right sidebar toggle -->
             <!-- ============================================================== -->
@@ -41,19 +43,21 @@
 
                             <div class="card">
                                 <div class="card-body">
-
-                                    <a href="{{route('admin_faq_add')}}" type="button" class="btn btn-block btn-lg btn-info" style="width: 200px">Add Faq</a>
                                     @include('home.message')
+
+
                                     <div class="table-responsive m-t-40">
                                         <table id="myTable" class="table table-bordered table-striped">
                                             <thead>
                                             <tr>
                                                 <th>ID</th>
-                                                <th>Question</th>
-                                                <th>Answer</th>
-                                                <th>Status</th>
-
-                                                <th colspan="2">Action</th>
+                                                <th></th>
+                                                <th>name</th>
+                                                <th>Email</th>
+                                                <th>Phone</th>
+                                                <th>Address</th>
+                                                <th>Roles</th>
+                                                <th colspan="3">Action</th>
 
                                             </tr>
                                             </thead>
@@ -62,15 +66,29 @@
 
                                                 <tr>
                                                     <td>{{ $rs->id }}</td>
-
-
-                                                    <td>{{ $rs->question }}</td>
-                                                    <td>{!! $rs->answer !!}</td>
-                                                    <td>{{ $rs->status }}</td>
                                                     <td>
-                                                        <a href="{{route('admin_faq_edit',['id'=> $rs->id])}}"><i class="fa fa-edit"></i></a>
+                                                        @if($rs->profile_photo_path)
+                                                            <img src="{{ Storage::url($rs->profile_photo_path)}}" height="50" style="border-radius: 10px" alt="">
+                                                        @endif
                                                     </td>
-                                                    <td><a href="{{route('admin_faq_delete',['id'=> $rs->id])}}"
+                                                    <td>{{ $rs->name }}</td>
+                                                    <td>{{ $rs->email }}</td>
+                                                    <td>{{ $rs->phone }}</td>
+                                                    <td>{{$rs->address}}</td>
+                                                    <td>@foreach($rs->roles as $row)
+                                                    {{$row->name}},
+                                                    @endforeach
+
+
+                                                    <a href="{{route('admin_user_roles',['id'=> $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')">
+                                                        <i class="icon-plus"></i>
+                                                                </a>
+
+                                                    </td>
+                                                    <td>
+                                                        <a href="{{route('admin_user_edit',['id'=> $rs->id])}}"><i class="fa fa-edit"></i></a>
+                                                    </td>
+                                                    <td><a href="{{route('admin_user_delete',['id'=> $rs->id])}}"
                                                            onclick="return confirm('Delete! Are you sure ?')">
                                                             <i class="fa fa-trash-o"></i></a></td>
                                                 </tr>
@@ -96,7 +114,8 @@
             <!-- .right-sidebar -->
             <div class="right-sidebar">
                 <div class="slimscrollright">
-                    <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
+                    <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span>
+                    </div>
                     <div class="r-panel-body">
                         <ul id="themecolors" class="m-t-20">
                             <li><b>With Light sidebar</b></li>
@@ -107,38 +126,59 @@
                             <li><a href="javascript:void(0)" data-skin="skin-purple" class="purple-theme">5</a></li>
                             <li><a href="javascript:void(0)" data-skin="skin-megna" class="megna-theme">6</a></li>
                             <li class="d-block m-t-30"><b>With Dark sidebar</b></li>
-                            <li><a href="javascript:void(0)" data-skin="skin-default-dark" class="default-dark-theme ">7</a></li>
-                            <li><a href="javascript:void(0)" data-skin="skin-green-dark" class="green-dark-theme">8</a></li>
+                            <li><a href="javascript:void(0)" data-skin="skin-default-dark"
+                                   class="default-dark-theme ">7</a></li>
+                            <li><a href="javascript:void(0)" data-skin="skin-green-dark" class="green-dark-theme">8</a>
+                            </li>
                             <li><a href="javascript:void(0)" data-skin="skin-red-dark" class="red-dark-theme">9</a></li>
-                            <li><a href="javascript:void(0)" data-skin="skin-blue-dark" class="blue-dark-theme">10</a></li>
-                            <li><a href="javascript:void(0)" data-skin="skin-purple-dark" class="purple-dark-theme">11</a></li>
-                            <li><a href="javascript:void(0)" data-skin="skin-megna-dark" class="megna-dark-theme ">12</a></li>
+                            <li><a href="javascript:void(0)" data-skin="skin-blue-dark" class="blue-dark-theme">10</a>
+                            </li>
+                            <li><a href="javascript:void(0)" data-skin="skin-purple-dark"
+                                   class="purple-dark-theme">11</a></li>
+                            <li><a href="javascript:void(0)" data-skin="skin-megna-dark"
+                                   class="megna-dark-theme ">12</a></li>
                         </ul>
                         <ul class="m-t-20 chatonline">
                             <li><b>Chat option</b></li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/1.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/1.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>Varun Dhavan <small
+                                            class="text-success">online</small></span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/2.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/2.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>Genelia Deshmukh <small
+                                            class="text-warning">Away</small></span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/3.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/3.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>Ritesh Deshmukh <small
+                                            class="text-danger">Busy</small></span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/4.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/4.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>Arijit Sinh <small
+                                            class="text-muted">Offline</small></span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/5.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/5.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>Govinda Star <small
+                                            class="text-success">online</small></span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/6.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/6.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>John Abraham<small
+                                            class="text-success">online</small></span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/7.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/7.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>Hritik Roshan<small
+                                            class="text-success">online</small></span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="../assets/images/users/8.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                                <a href="javascript:void(0)"><img src="../assets/images/users/8.jpg" alt="user-img"
+                                                                  class="img-circle"> <span>Pwandeep rajan <small
+                                            class="text-success">online</small></span></a>
                             </li>
                         </ul>
                     </div>
@@ -159,7 +199,13 @@
 @section('footer')
 
     <!-- start - This is for export functionality only -->
-
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
     <!-- end - This is for export functionality only -->
     <script>
         $(document).ready(function () {

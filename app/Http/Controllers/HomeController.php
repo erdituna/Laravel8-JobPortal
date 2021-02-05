@@ -54,7 +54,7 @@ class HomeController extends Controller
         }
         else
         {
-            return redirect()->route('productlist',['search',$search]);
+            return redirect()->route('jobslist',['search',$search]);
         }
 
 
@@ -62,7 +62,7 @@ class HomeController extends Controller
         #$data = Jobs::where('title','like',$request->input('search'))->first();
         #return redirect()->route('jobs',['id'=>$data->id,'slug'=>$data->slug]);
     }
-    public function joblist($search)
+    public function jobslist($search)
     {
 
         $datalist = Jobs::where('title','like','%'.$search.'%')->get();

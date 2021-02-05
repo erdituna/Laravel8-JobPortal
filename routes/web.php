@@ -28,7 +28,7 @@ Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendm
 Route::get('/jobs/{id}/{slug}', [HomeController::class, 'jobs'])->name('jobs');
 Route::get('/categoryjobs/{id}/{slug}', [HomeController::class, 'categoryjobs'])->name('categoryjobs');
 Route::post('/getjobs', [HomeController::class, 'getjobs'])->name('getjobs');
-Route::post('/productlist/{search}', [HomeController::class, 'productlist'])->name('productlist');
+Route::get('/jobslist/{search}', [HomeController::class, 'jobslist'])->name('jobslist');
 
 
 
@@ -37,6 +37,7 @@ Route::post('/productlist/{search}', [HomeController::class, 'productlist'])->na
 
 Route::middleware('auth')->prefix('admin')->group(function () {
 
+    Route::middleware('admin')->group(function () {
     Route::get('/', [\App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin_home');
 
     Route::get('category', [\App\Http\Controllers\Admin\CategoryController::class, 'index'])->name('admin_category');
@@ -50,8 +51,8 @@ Route::middleware('auth')->prefix('admin')->group(function () {
 
         Route::get('/', [\App\Http\Controllers\Admin\JobsController::class, 'index'])->name('admin_jobs');
         Route::get('/create', [\App\Http\Controllers\Admin\JobsController::class, 'create'])->name('admin_jobs_add');
-        Route::post('/store', [\App\Http\Controllers\Admin\JobsController::class, 'store'])->name('admin_jobs_store');
-        Route::get('/edit{id}', [\App\Http\Controllers\Admin\JobsController::class, 'edit'])->name('admin_jobs_edit');
+        Route::post('/store/', [\App\Http\Controllers\Admin\JobsController::class, 'store'])->name('admin_jobs_store');
+        Route::get('/edit/{id}', [\App\Http\Controllers\Admin\JobsController::class, 'edit'])->name('admin_jobs_edit');
         Route::post('/update/{id}', [\App\Http\Controllers\Admin\JobsController::class, 'update'])->name('admin_jobs_update');
         Route::get('/delete/{id}', [\App\Http\Controllers\Admin\JobsController::class, 'destroy'])->name('admin_jobs_delete');
         Route::get('/show', [\App\Http\Controllers\Admin\JobsController::class, 'show'])->name('admin_jobs_show');
@@ -64,6 +65,19 @@ Route::middleware('auth')->prefix('admin')->group(function () {
         Route::post('/update/{id}', [\App\Http\Controllers\Admin\MessageController::class, 'update'])->name('admin_message_update');
         Route::get('/delete/{id}', [\App\Http\Controllers\Admin\MessageController::class, 'destroy'])->name('admin_message_delete');
         Route::get('/show', [\App\Http\Controllers\Admin\MessageController::class, 'show'])->name('admin_message_show');
+
+    });
+
+    Route::prefix('application')->group(function () {
+
+
+        Route::get('/', [\App\Http\Controllers\Admin\ApplicationController::class, 'index'])->name('admin_applications');
+        Route::get('/create/{id}', [\App\Http\Controllers\Admin\ApplicationController::class, 'create'])->name('admin_application_add');
+        Route::post('/store/{id}', [\App\Http\Controllers\Admin\ApplicationController::class, 'store'])->name('admin_application_store');
+        Route::get('/edit/{id}', [\App\Http\Controllers\Admin\ApplicationController::class, 'edit'])->name('admin_application_edit');
+        Route::post('/update/{id}', [\App\Http\Controllers\Admin\ApplicationController::class, 'update'])->name('admin_application_update');
+        Route::get('/delete/{id}', [\App\Http\Controllers\Admin\ApplicationController::class, 'destroy'])->name('admin_application_delete');
+        Route::get('/show/{id}', [\App\Http\Controllers\Admin\ApplicationController::class, 'show'])->name('admin_application_show');
 
     });
 # Jobs Image Gallery
@@ -91,28 +105,81 @@ Route::middleware('auth')->prefix('admin')->group(function () {
         Route::get('/show', [\App\Http\Controllers\Admin\FaqController::class, 'show'])->name('admin_faqs_show');
 
     });
+        Route::prefix('user')->group(function () {
+
+            Route::get('/', [\App\Http\Controllers\Admin\UserController::class, 'index'])->name('admin_users');
+            Route::post('/create', [\App\Http\Controllers\Admin\UserController::class, 'create'])->name('admin_user_add');
+            Route::post('/store', [\App\Http\Controllers\Admin\UserController::class, 'store'])->name('admin_user_store');
+            Route::get('/edit/{id}', [\App\Http\Controllers\Admin\UserController::class, 'edit'])->name('admin_user_edit');
+            Route::post('/update/{id}', [\App\Http\Controllers\Admin\UserController::class, 'update'])->name('admin_user_update');
+            Route::get('/delete/{id}', [\App\Http\Controllers\Admin\UserController::class, 'destroy'])->name('admin_user_delete');
+            Route::get('/show/{id}', [\App\Http\Controllers\Admin\UserController::class, 'show'])->name('admin_user_show');
+            Route::get('/userrole/{id}', [\App\Http\Controllers\Admin\UserController::class, 'user_roles'])->name('admin_user_roles');
+            Route::post('/userrolestore/{id}', [\App\Http\Controllers\Admin\UserController::class, 'user_role_store'])->name('admin_user_role_add');
+            Route::get('/userroledelete/{userid}/{roleid}', [\App\Http\Controllers\Admin\UserController::class, 'user_role_delete'])->name('admin_user_role_delete');
+
+        });
 
 
-});
+
+
+
+
+    });//admin
+
+}); #auth
+
+
+Route::get('admin/login', [HomeController::class, 'login'])->name('admin_login');
+Route::post('admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
+Route::get('logout', [HomeController::class, 'logout'])->name('logout');
+
 
 Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
     Route::get('/', [\App\Http\Controllers\UserController::class, 'index'])->name('myprofile');
+
 
 });
 
 Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
     Route::get('/profile', [\App\Http\Controllers\UserController::class, 'index'])->name('userprofile');
+    Route::prefix('jobs')->group(function () {
+
+        Route::get('/', [\App\Http\Controllers\JobsController::class, 'index'])->name('user_jobs');
+        Route::get('/create', [\App\Http\Controllers\JobsController::class, 'create'])->name('user_jobs_add');
+        Route::post('/store', [\App\Http\Controllers\JobsController::class, 'store'])->name('user_jobs_store');
+        Route::get('/edit/{id}', [\App\Http\Controllers\JobsController::class, 'edit'])->name('user_jobs_edit');
+        Route::post('/update/{id}', [\App\Http\Controllers\JobsController::class, 'update'])->name('user_jobs_update');
+        Route::get('/delete/{id}', [\App\Http\Controllers\JobsController::class, 'destroy'])->name('user_jobs_delete');
+        Route::get('/show', [\App\Http\Controllers\JobsController::class, 'show'])->name('user_jobs_show');
+
+    });
+    Route::prefix('image')->group(function () {
+
+        Route::get('/create/{jobs_id}', [\App\Http\Controllers\ImageController::class, 'create'])->name('user_image_add');
+        Route::post('/store/{jobs_id}', [\App\Http\Controllers\ImageController::class, 'store'])->name('user_image_store');
+        Route::get('/delete/{id}/{jobs_id}', [\App\Http\Controllers\ImageController::class, 'destroy'])->name('user_image_delete');
+        Route::get('/show', [\App\Http\Controllers\ImageController::class, 'show'])->name('user_image_show');
+
+    });
+
+    Route::prefix('application')->group(function () {
+
+
+        Route::get('/', [\App\Http\Controllers\ApplicationController::class, 'index'])->name('user_applications');
+        Route::get('/create/{id}', [\App\Http\Controllers\ApplicationController::class, 'create'])->name('user_application_add');
+        Route::post('/store/{id}', [\App\Http\Controllers\ApplicationController::class, 'store'])->name('user_application_store');
+        Route::get('/edit/{id}', [\App\Http\Controllers\ApplicationController::class, 'edit'])->name('user_application_edit');
+        Route::post('/update/{id}', [\App\Http\Controllers\ApplicationController::class, 'update'])->name('user_application_update');
+        Route::get('/delete/{id}', [\App\Http\Controllers\ApplicationController::class, 'destroy'])->name('user_application_delete');
+        Route::get('/show/{id}', [\App\Http\Controllers\ApplicationController::class, 'show'])->name('user_application_show');
+
+    });
 
 });
 
 
 
-
-//admin
-
-Route::get('admin/login', [HomeController::class, 'login'])->name('admin_login');
-Route::post('admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
-Route::get('logout', [HomeController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

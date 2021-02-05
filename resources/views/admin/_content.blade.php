@@ -179,7 +179,7 @@
                                         <div class="carousel-item active">
                                             <h4 class="cmin-height">My Acting blown <span class="font-medium">Your Mind</span> and you also <br/>laugh at the moment</h4>
                                             <div class="d-flex no-block">
-                                                <span><img src="{{asset('assets')}}}/adminassets/images/users/1.jpg" alt="user" width="50" class="img-circle"></span>
+                                                <span><img src="{{asset('assets')}}}/admin/assets/images/users/1.jpg" alt="user" width="50" class="img-circle"></span>
                                                 <span class="m-l-10">
                                                     <h4 class="text-white m-b-0">Govinda</h4>
                                                     <p class="text-white">Actor</p>
@@ -248,7 +248,7 @@
                         </div>
                         <!-- Comment Row -->
                         <div class="d-flex no-block comment-row border-top">
-                            <div class="p-2"><span class="round"><img src="admin/assets/images/users/2.jpg" alt="user" width="50"></span></div>
+                            <div class="p-2"><span class="round"><img src="{{asset('assets')}}/admin/assets/images/users/2.jpg" alt="user" width="50"></span></div>
                             <div class="comment-text active w-100">
                                 <h5 class="font-medium">Michael Jorden</h5>
                                 <p class="m-b-10 text-muted">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>

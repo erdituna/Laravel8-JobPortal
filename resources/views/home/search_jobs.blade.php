@@ -1,9 +1,5 @@
 @extends('layouts.home2')
 @section('title', $search . " Jobs List")
-@section('description')
-    {{$data->description}}
-@endsection
-@section('keywords',$data->keywords)
 
 @section('content')
     <div class="slider-area ">

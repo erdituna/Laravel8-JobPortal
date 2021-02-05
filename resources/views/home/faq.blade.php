@@ -28,6 +28,8 @@
         </div>
     </div>
 
+
+    <div class="job-post-company pt-120 pb-120">
 <div class="section">
     <div class="container">
         <div class="row">
@@ -50,7 +52,7 @@
         </div>
     </div>
 </div>
-
+</div>
 
 
 

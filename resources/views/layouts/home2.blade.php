@@ -29,6 +29,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
     @yield('headerjs')
+    @yield('footerjs')
 </head>
 <body>
 

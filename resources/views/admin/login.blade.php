@@ -42,6 +42,7 @@
 <section id="wrapper" class="login-register login-sidebar" style="background-image:url({{ asset('assets')}}/admin/assets/images/background/login-register.jpg);">
     <div class="login-box card">
         <div class="card-body">
+            @include('home.message')
             <form class="form-horizontal form-material" id="loginform" action="{{route('admin_logincheck')}}" method="post">
                 @csrf
                 <a href="javascript:void(0)" class="text-center db"><img src="{{ asset('assets')}}/admin/assets/images/logo-icon.png" alt="Home" /><br/><img src="{{ asset('assets')}}/admin/assets/images/logo-text.png" alt="Home" /></a>

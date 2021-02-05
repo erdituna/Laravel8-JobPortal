@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title','Frequently Asked Question List')
+@section('title','Admin Application List')
 
 
 @section('content')
@@ -14,19 +14,17 @@
             <!-- ============================================================== -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h4 class="text-themecolor">Faq</h4>
+                    <h4 class="text-themecolor">Application Page</h4>
                 </div>
                 <div class="col-md-7 align-self-center text-right">
                     <div class="d-flex justify-content-end align-items-center">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                            <li class="breadcrumb-item active">Faq</li>
+                            <li class="breadcrumb-item active">Application Page</li>
                         </ol>
 
                     </div>
                 </div>
-
-
             </div>
             <!-- ============================================================== -->
             <!-- End Bread crumb and right sidebar toggle -->
@@ -39,50 +37,56 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <div class="card">
-                                <div class="card-body">
+                            <div class="row">
 
-                                    <a href="{{route('admin_faq_add')}}" type="button" class="btn btn-block btn-lg btn-info" style="width: 200px">Add Faq</a>
-                                    @include('home.message')
-                                    <div class="table-responsive m-t-40">
-                                        <table id="myTable" class="table table-bordered table-striped">
-                                            <thead>
+                                @include('home.message')
+                                <div class="table-responsive m-t-50">
+                                    <table id="myTable" class="table table-bordered table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>User</th>
+                                            <th>Name</th>
+                                            <th>Phone</th>
+                                            <th>Address</th>
+                                            <th>Date</th>
+                                            <th>status</th>
+                                            <th>note</th>
+
+                                            <th colspan="2">Action</th>
+
+
+
+
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        @foreach ($datalist as $rs)
+
                                             <tr>
-                                                <th>ID</th>
-                                                <th>Question</th>
-                                                <th>Answer</th>
-                                                <th>Status</th>
+                                                <td>{{ $rs->id }}</td>
+                                                <td>{{ $rs->user->name }}</td>
+                                                <td>{{ $rs->name }}</td>
 
-                                                <th colspan="2">Action</th>
+                                                <td>{{ $rs->phone }}</td>
+                                                <td>{{ $rs->address }}</td>
+                                                <td>{{ $rs->created_at }}</td>
+                                                <td>{{ $rs->status }}</td>
+                                                <td>{{ $rs->note }}</td>
+
+
+                                                <td><a href="{{route('admin_application_edit',['id'=> $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')"><img
+                                                            src="{{asset('assets/admin/images')}}/gallery.jpg" height="35"></a></td>
+
 
                                             </tr>
-                                            </thead>
-                                            <tbody>
-                                            @foreach ($datalist as $rs)
 
-                                                <tr>
-                                                    <td>{{ $rs->id }}</td>
+                                        @endforeach
 
-
-                                                    <td>{{ $rs->question }}</td>
-                                                    <td>{!! $rs->answer !!}</td>
-                                                    <td>{{ $rs->status }}</td>
-                                                    <td>
-                                                        <a href="{{route('admin_faq_edit',['id'=> $rs->id])}}"><i class="fa fa-edit"></i></a>
-                                                    </td>
-                                                    <td><a href="{{route('admin_faq_delete',['id'=> $rs->id])}}"
-                                                           onclick="return confirm('Delete! Are you sure ?')">
-                                                            <i class="fa fa-trash-o"></i></a></td>
-                                                </tr>
-
-                                            @endforeach
-
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -153,61 +157,6 @@
         <!-- ============================================================== -->
     </div>
 
-
-@endsection
-
-@section('footer')
-
-    <!-- start - This is for export functionality only -->
-
-    <!-- end - This is for export functionality only -->
-    <script>
-        $(document).ready(function () {
-            $('#myTable').DataTable();
-            $(document).ready(function () {
-                var table = $('#example').DataTable({
-                    "columnDefs": [{
-                        "visible": false,
-                        "targets": 2
-                    }],
-                    "order": [
-                        [2, 'asc']
-                    ],
-                    "displayLength": 25,
-                    "drawCallback": function (settings) {
-                        var api = this.api();
-                        var rows = api.rows({
-                            page: 'current'
-                        }).nodes();
-                        var last = null;
-                        api.column(2, {
-                            page: 'current'
-                        }).data().each(function (group, i) {
-                            if (last !== group) {
-                                $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
-                                last = group;
-                            }
-                        });
-                    }
-                });
-                // Order by the grouping
-                $('#example tbody').on('click', 'tr.group', function () {
-                    var currentOrder = table.order()[0];
-                    if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
-                        table.order([2, 'desc']).draw();
-                    } else {
-                        table.order([2, 'asc']).draw();
-                    }
-                });
-            });
-        });
-        $('#example23').DataTable({
-            dom: 'Bfrtip',
-            buttons: [
-                'copy', 'csv', 'excel', 'pdf', 'print'
-            ]
-        });
-    </script>
 
 @endsection
 
