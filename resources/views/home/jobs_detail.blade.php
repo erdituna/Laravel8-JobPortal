@@ -64,12 +64,11 @@
                             <h4>Job Overview</h4>
                         </div>
                         <ul>
-                            <li>Posted date : <span>12 Aug 2019</span></li>
+                            <li>Date : <span>{{ $data->created_at }}</span></li>
                             <li>Location : <span>{{$data->location}}</span></li>
-                            <li>Vacancy : <span>02</span></li>
-                            <li>Job nature : <span>Full time</span></li>
+                            <li>Job Type : <span>Full time</span></li>
                             <li>Salary :  <span>${{$data->salaries}}</span></li>
-                            <li>Application date : <span>12 Sep 2020</span></li>
+
                         </ul>
                         <form action="{{route('user_application_add',['id'=>$data->id])}}">
                         <div class="apply-btn2">

@@ -44,7 +44,7 @@
                             <div class="single-job-items mb-90">
                                 <div class="job-items">
                                     <div class="company-img">
-                                        <a href="#"><img src="{{\Illuminate\Support\Facades\Storage::url($rs->image)}}" alt="10px"></a>
+                                        <a href=""><img src="{{\Illuminate\Support\Facades\Storage::url($rs->image)}}" alt="10px"></a>
                                     </div>
                                     <div class="job-tittle job-tittle2">
                                         <a href="#">
@@ -121,42 +121,12 @@
         </div>
         <!-- How  Apply Process End-->
         <!-- Testimonial Start -->
-        <div class="testimonial-area testimonial-padding">
-            <div class="container">
+
 
 
         <!-- Testimonial End -->
         <!-- Support Company Start-->
-        <div class="support-company-area support-padding fix">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="right-caption">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle section-tittle2">
-                                <span>What we are doing</span>
-                                <h2>24k Talented people are getting Jobs</h2>
-                            </div>
-                            <div class="support-caption">
-                                <p class="pera-top">Mollit anim laborum duis au dolor in voluptate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillum.</p>
-                                <p>Mollit anim laborum.Duis aute irufg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur signjnt occa cupidatat non inulpadeserunt mollit aboru. temnthp incididbnt ut labore mollit anim laborum suis aute.</p>
-                                <a href="{{route('user_jobs')}}" class="btn post-btn">Post a job</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="support-location-img">
-                            <img src="{{asset('assets')}}/img/service/support-img.jpg" alt="">
-                            <div class="support-img-cap text-center">
-                                <p>Since</p>
-                                <span>1994</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Support Company End-->
+
 
 
     </main>

@@ -12,7 +12,7 @@
                             <div class="footer-tittle">
                                 <h4>About Us</h4>
                                 <div class="footer-pera">
-                                    <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                                    </p> <a href="{{route('aboutus')}}">Hakkımızda Sayfasına Gitmek için tıklayınız</a><p>
                                 </div>
                             </div>
                         </div>
@@ -41,11 +41,11 @@
                         <div class="footer-tittle">
                             <h4>Important Link</h4>
                             <ul>
-                                <li><a href="#"> View Project</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Testimonial</a></li>
-                                <li><a href="#">Proparties</a></li>
-                                <li><a href="#">Support</a></li>
+                                <li><a href="{{route('user_jobs')}}">Post A Job</a></li>
+                                <li><a href="{{route('contact')}}">Contact Us</a></li>
+                                <li><a href="{{route('faq')}}">FAQ</a></li>
+                                <li><a href="{{route('references')}}">References</a></li>
+
                             </ul>
                         </div>
                     </div>

@@ -30,12 +30,16 @@ class HomeController extends Controller
         $setting = Setting::first();
 
         $jobs = Jobs::select('id','title','company','location','salaries','image','slug')->limit(4)->inRandomOrder()->get();
+        $slider = Jobs::select('image')->get();
+
 
         #print_r($jobs);
         #exit();
         $data = [
             'setting'=>$setting,
             'jobs'=>$jobs,
+            'slider'=>$slider,
+
             'page'=> 'home'
         ];
 
