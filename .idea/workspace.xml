@@ -20,21 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee97ff03-9459-4328-aec2-6922c8eb3628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ResumeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Resume.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_10_085945_create_resumes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/user_resume.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/user_resume_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_application.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_application.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_application_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_application_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_jobs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_jobs.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_jobs_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_jobs_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_jobs_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_jobs_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +236,7 @@
       <workItem from="1612432471398" duration="32997000" />
       <workItem from="1612515464827" duration="12118000" />
       <workItem from="1612707046639" duration="1275000" />
-      <workItem from="1612947263710" duration="8771000" />
+      <workItem from="1612947263710" duration="9673000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1609870466225</created>
@@ -271,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612527449910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="düzenlemeler yapıldı">
+      <created>1612961056426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612961056426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +289,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="fourth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
+    <MESSAGE value="düzenlemeler yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="düzenlemeler yapıldı" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="236" key="#Notifications" timestamp="1611743033578">
@@ -353,10 +349,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1607264245657" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612527461644">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612961074461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612527461644" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612961074461" />
     <state x="667" y="300" width="312" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612516988657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
