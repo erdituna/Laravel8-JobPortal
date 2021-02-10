@@ -41,7 +41,7 @@
                                     </svg>
                                 </div>
 
-                                <h4>Filter Jobs</h4>
+                                <h4>User</h4>
                             </div>
                         </div>
                     </div>

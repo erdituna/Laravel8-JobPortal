@@ -1,5 +1,11 @@
 @extends('layouts.home2')
 @section('title','user profil')
+
+@section('headerjs')
+    <script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+
+@endsection
+
 @section('content')
 
     <div class="slider-area ">
@@ -43,7 +49,7 @@
                         <div class="single-listing">
                             <div class="small-section-tittle2">
                                 <h4>MY ACCOUNT</h4>
-                               @include('home.usermenu')
+                                @include('home.usermenu')
                             </div>
 
                             <!-- select-Categories End -->
@@ -60,49 +66,50 @@
                         <div class="container">
                             <!-- Count of Job list Start -->
                             <div class="row">
-
+                                <a href="{{route('user_resume_add')}}" type="button" class="btn btn-block btn-lg btn-info" style="width: 200px">Add Resume</a>
                                 @include('home.message')
-                                    <div class="table-responsive m-t-50">
-                                        <table id="myTable" class="table table-bordered table-striped">
-                                            <thead>
+                                <div class="table-responsive m-t-50">
+                                    <table id="myTable" class="table table-bordered table-striped">
+
+                                        @foreach ($data as $rs)
+
                                             <tr>
-                                                <th>ID</th>
-                                                <th>Name</th>
-                                                <th>Phone</th>
-                                                <th>Address</th>
-                                                <th>Date</th>
-                                                <th>Status</th>
-                                                <th>JOBS</th>
-
-
-
+                                                <th>experience</th>
+                                                <td>{{ $rs->experience }}</td>
                                             </tr>
-                                            </thead>
-                                            <tbody>
-                                            @foreach ($datalist as $rs)
+                                            <tr>
+                                                <th>firm</th>
+                                                <td>{{ $rs->firm }}</td>
+                                            </tr>
+                                            <tr>
+                                                <th>position</th>
+                                                <td>{{ $rs->position }}</td>
+                                            </tr>
+                                            <tr>
+                                                <th>career</th>
+                                                <td>{!!$rs->career  !!}  </td>
+                                            </tr>
 
-                                                <tr>
-                                                    <td>{{ $rs->id }}</td>
-                                                    <td>{{ $rs->name }}</td>
-                                                    <td>{{ $rs->phone }}</td>
-                                                    <td>{{ $rs->address }}</td>
-                                                    <td>{{ $rs->created_at }}</td>
-                                                    <td>{{ $rs->status }}</td>
-                                                    <td>{{ $rs->jobs_id }}</td>
+                                            <tr>
+                                                <th>language</th>
+                                                <td>{{ $rs->language }}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>Skills</th>
+                                                <td>{{ $rs->skill }}</td>
+                                            </tr>
 
 
+                                        @endforeach
 
-                                                </tr>
 
-                                            @endforeach
-
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                    </table>
                                 </div>
                             </div>
-                            <!-- Count of Job list End -->
-                            <!-- single-job-content -->
+                        </div>
+                        <!-- Count of Job list End -->
+                        <!-- single-job-content -->
 
 
 

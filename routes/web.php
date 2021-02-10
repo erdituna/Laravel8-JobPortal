@@ -162,6 +162,15 @@ Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
         Route::get('/show', [\App\Http\Controllers\ImageController::class, 'show'])->name('user_image_show');
 
     });
+    Route::prefix('resume')->group(function () {
+
+        Route::get('/', [\App\Http\Controllers\ResumeController::class, 'index'])->name('user_resume');
+        Route::get('/create', [\App\Http\Controllers\ResumeController::class, 'create'])->name('user_resume_add');
+        Route::post('/store', [\App\Http\Controllers\ResumeController::class, 'store'])->name('user_resume_store');
+        Route::get('/edit', [\App\Http\Controllers\ResumeController::class, 'edit'])->name('user_resume_edit');
+
+
+    });
 
     Route::prefix('application')->group(function () {
 
