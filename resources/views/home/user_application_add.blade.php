@@ -22,7 +22,7 @@
         <div class="container">
 
             <div class="col-lg-8 col-md-8">
-                <h3 class="mb-30">Form Element</h3>
+                <h3 class="mb-30">Apply Job</h3>
                 <form action="{{route('user_application_store',['id'=>$data->id])}}" method="post">
                     @csrf
                     <div class="mt-10">
@@ -41,10 +41,23 @@
                         <input type="text" name="phone" value="{{Auth::user()->phone}}" placeholder="Phone"
                                class="single-input">
                     </div>
+                    <div class="mt-10">
+                        <input type="text" name="" value="{{$data->title}}" placeholder="Phone"
+                               class="single-input">
+                    </div>
+                    <div class="mt-10">
+                        <input type="text" name="" value="{{$data->company}}" placeholder="Phone"
+                               class="single-input">
+                    </div>
+                    <div class="mt-10">
+                        <input type="text" name="" value="{{$data->salaries}}" placeholder="Phone"
+                               class="single-input">
+                    </div>
 
 
 
-                        <div class="mt-10">
+
+                    <div class="mt-10">
                             <div class="apply-btn2">
                                 <button type="submit" class="btn">Submit</button>
                             </div>

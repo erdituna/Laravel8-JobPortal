@@ -3,7 +3,7 @@
     <li><a href="{{route('myprofile')}}"><span>My Account</span></a></li>
     <li><a href="{{route('user_resume')}}"><span>CV</span></a></li>
     <li><a href="{{route('user_applications')}}"><span>Başvurular</span></a></li>
-    <li><a href="{{route('user_jobs')}}"><span>Post a Job</span></a></li>
+    <li><a href="{{route('user_jobs')}}"><span>Add Job</span></a></li>
     <li><a href="{{route('logout')}}"><span>logout</span></a></li>
     @php
         $userRoles = Auth::user()->roles->pluck('name');

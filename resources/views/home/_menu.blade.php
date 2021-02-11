@@ -16,7 +16,7 @@
                     <nav class="d-none d-lg-block">
                         <ul id="navigation">
                             <li><a href="{{route('home')}}">Home</a></li>
-                            <li><a href="{{route('user_jobs')}}">Post A Job</a></li>
+                            <li><a href="{{route('user_jobs')}}">Add Job</a></li>
                             <li><a href="{{route('aboutus')}}">About</a></li>
                             <li><a href="{{route('contact')}}">Contact</a></li>
                             <li><a href="{{route('faq')}}">FAQ</a></li>

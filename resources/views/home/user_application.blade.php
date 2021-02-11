@@ -73,6 +73,7 @@
                                                 <th>Date</th>
                                                 <th>Status</th>
                                                 <th>JOBS</th>
+                                                <th>Company</th>
 
 
 
@@ -88,7 +89,8 @@
                                                     <td>{{ $rs->address }}</td>
                                                     <td>{{ $rs->created_at }}</td>
                                                     <td>{{ $rs->status }}</td>
-                                                    <td>{{ $rs->jobs_id }}</td>
+                                                    <td>{{ $rs->jobs->title }}</td>
+                                                    <td>{{ $rs->jobs->company }}</td>
 
 
 

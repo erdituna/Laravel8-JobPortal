@@ -41,7 +41,7 @@
                         <div class="footer-tittle">
                             <h4>Important Link</h4>
                             <ul>
-                                <li><a href="{{route('user_jobs')}}">Post A Job</a></li>
+                                <li><a href="{{route('user_jobs')}}">Add Job</a></li>
                                 <li><a href="{{route('contact')}}">Contact Us</a></li>
                                 <li><a href="{{route('faq')}}">FAQ</a></li>
                                 <li><a href="{{route('references')}}">References</a></li>
