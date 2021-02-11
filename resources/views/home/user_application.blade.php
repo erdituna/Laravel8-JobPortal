@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>Post A JOB</h2>
+                            <h2>Add JOB</h2>
                         </div>
                     </div>
                 </div>
@@ -71,9 +71,10 @@
                                                 <th>Phone</th>
                                                 <th>Address</th>
                                                 <th>Date</th>
-                                                <th>Status</th>
                                                 <th>JOBS</th>
                                                 <th>Company</th>
+                                                <th>Status</th>
+
 
 
 
@@ -88,9 +89,9 @@
                                                     <td>{{ $rs->phone }}</td>
                                                     <td>{{ $rs->address }}</td>
                                                     <td>{{ $rs->created_at }}</td>
-                                                    <td>{{ $rs->status }}</td>
                                                     <td>{{ $rs->jobs->title }}</td>
                                                     <td>{{ $rs->jobs->company }}</td>
+                                                    <td>{{ $rs->status }}</td>
 
 
 

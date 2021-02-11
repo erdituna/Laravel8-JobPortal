@@ -21,11 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ee97ff03-9459-4328-aec2-6922c8eb3628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ResumeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResumeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/application.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/application.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/user_application.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_application.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_application_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_application_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_resume.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_resume.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +240,7 @@
       <workItem from="1612432471398" duration="32997000" />
       <workItem from="1612515464827" duration="12118000" />
       <workItem from="1612707046639" duration="1275000" />
-      <workItem from="1612947263710" duration="17665000" />
+      <workItem from="1612947263710" duration="24189000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1609870466225</created>
@@ -283,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612975664867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated">
+      <created>1613033503650</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613033503650</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +317,8 @@
     <MESSAGE value="düzenlemeler yapıldı" />
     <MESSAGE value="2.düzenleme yapıldı" />
     <MESSAGE value="düzenleme yapıldı" />
-    <option name="LAST_COMMIT_MESSAGE" value="düzenleme yapıldı" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="236" key="#Notifications" timestamp="1611743033578">

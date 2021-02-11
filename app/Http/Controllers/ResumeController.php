@@ -73,8 +73,7 @@ class ResumeController extends Controller
     public function edit(Resume $resume)
     {
         //
-        $data = Resume::all();
-        return view('home.user_resume_edit', ['data' => $data]);
+
     }
 
     /**

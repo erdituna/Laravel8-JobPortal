@@ -65,8 +65,8 @@
                     <section class="featured-job-area">
                         <div class="container">
                             <!-- Count of Job list Start -->
-                            <div class="row">
-                                <a href="{{route('user_resume_add')}}" type="button" class="btn btn-block btn-lg btn-info" style="width: 200px">Add Resume</a>
+                            <div class="row" >
+                                <div class="btn btn-block btn-lg btn-info" ><span>{{\Illuminate\Support\Facades\Auth::user()->name}}</span></div>
                                 @include('home.message')
                                 <div class="table-responsive m-t-50">
                                     <table id="myTable" class="table table-bordered table-striped">

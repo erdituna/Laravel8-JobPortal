@@ -49,9 +49,12 @@
                                             <th>Name</th>
                                             <th>Phone</th>
                                             <th>Address</th>
+                                            <th>Jobs</th>
                                             <th>Date</th>
                                             <th>status</th>
                                             <th>note</th>
+
+
 
                                             <th colspan="2">Action</th>
 
@@ -67,12 +70,13 @@
                                                 <td>{{ $rs->id }}</td>
                                                 <td>{{ $rs->user->name }}</td>
                                                 <td>{{ $rs->name }}</td>
-
                                                 <td>{{ $rs->phone }}</td>
                                                 <td>{{ $rs->address }}</td>
+                                                <td>{{ $rs->jobs->title }}</td>
                                                 <td>{{ $rs->created_at }}</td>
                                                 <td>{{ $rs->status }}</td>
                                                 <td>{{ $rs->note }}</td>
+
 
 
                                                 <td><a href="{{route('admin_application_edit',['id'=> $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')"><img
